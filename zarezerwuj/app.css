@@ -1,0 +1,234 @@
+@import url('../css/reset.css');
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:10px;
+    background-color:rgba(255, 255, 255, 0.68);
+    color:#000;
+}
+section, footer{
+  width:100%;
+  height:50vh;
+  margin:0 auto;
+}
+header{
+    width:100%;
+    height: 64vh;
+    position:relative;
+    overflow:hidden;
+    background:url('../img/1-bnw-m2-wynajem-aut-sportowych-warszawa.jpg') no-repeat center/cover;
+    overflow:hidden;
+}
+
+header nav{
+    background-color:#000;
+    height:15vh;
+    width:100%;
+    
+}
+header nav ul{
+    padding:0;
+    list-style: none;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+header nav ul li{
+   
+    margin-top:30px;
+   
+}
+header nav ul li a{
+    width:150px;
+    color:#fff;
+    display:block;
+    font-size:2em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight:700;
+}
+header nav ul li a:hover{
+    background:#007bff;
+    color:#fff;
+    text-decoration: none;
+    -webkit-transition:.6s;
+    transition:.6s;
+}
+
+#spolecznosciowe {
+    width: 222px;;
+    height: 82px;
+    position: fixed;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 57%;
+    left: -156px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    border-left: none;
+    -webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    padding: 20px;
+}
+
+#spolecznosciowe:hover {
+    left: 0;
+}
+
+.sprites_media{
+    background: url(../img/sprites_spolecznosciowe.png) no-repeat;
+    width:43px;
+    height:42px;
+    overflow:hidden;
+    display:inline-block;
+}
+
+div.facebook {
+    background-position: 0px -1px;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+div.facebook:hover {
+    background-position: 0px -43px;
+}
+
+div.twitter {
+    background-position: -52px -1px;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+div.twitter:hover {
+    background-position: -52px -43px;
+}
+
+div.youtube {
+    background-position: -104px -1px;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+div.youtube:hover {
+    background-position: -104px -43px;
+}
+
+div.in {
+    background-position: -155px -1px;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+div.in:hover {
+    background-position: -155px -43px;
+}
+
+section{
+    
+    
+    margin:5em auto;
+    width:1000px;
+    height:150vh;
+    padding:20px;
+    border:1px solid #fff;
+    background-color:#141414;
+    opacity: .7;
+    color:#fff;
+    border-radius:4px;
+    background:url('../rezerwacja/img/tlo-sekcji-formularza.jpeg') center/cover no-repeat;
+}
+
+section h1{
+    
+    color:#fff;
+    text-align:center;
+    font-size:3em;
+    padding:0.5em 0 0 0;
+}
+
+
+
+section form p{
+    
+
+    padding:10px;
+    margin:10px;
+    font-size:18px;
+    letter-spacing: 0.1em;
+  
+}
+
+section form p:nth-of-type(1){
+    padding:40px 0;
+}
+section form p:nth-of-type(3){
+ position:absolute;
+ top:12em;
+ left:30em;
+
+}
+section form p:nth-of-type(4){
+    
+   border-bottom:1px solid transparent; 
+}
+label{
+   display: block; 
+}
+
+section form p input{
+    
+    padding:10px;
+    margin:10px 0;
+    font-size:18px;
+    border-radius:5px;
+    
+}
+
+section form p input[type="submit"], p input[type="reset"]{
+    
+    padding:10px;
+    margin-left:20px;
+    margin-top:10px;
+    border:none;
+    border-radius:4px;
+    width:40%;
+    color:#eee;
+    background-color:#007bff;
+  
+}
+
+footer{
+    
+    background-color:#000;
+    color:#fff;
+    
+}
+
+footer ul li{
+    
+   width:23%;
+   font-size:20px;
+   float:left;
+   padding:20px;
+   line-height:1.4em;
+}
+footer p{
+    
+    clear:both;
+    width:100%;
+    text-align: center;
+    font-size:15px;
+}
